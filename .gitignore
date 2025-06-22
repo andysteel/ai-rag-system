@@ -1,0 +1,18 @@
+*.spec
+
+.venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+resources/db/*.db
+resources/files/embeddings_cache/*.pkl
